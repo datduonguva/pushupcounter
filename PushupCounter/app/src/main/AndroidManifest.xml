@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.duongCompany.duong.pushupcounter">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.duongCompany.duong.pushupcounter.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.duongCompany.duong.pushupcounter.ParametersActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <provider
+            android:name="com.duongCompany.duong.pushupcounter.data.PushProvider"
+            android:authorities="com.duongCompany.duong.pushupcounter"
+            android:exported="false" />
+    </application>
+
+</manifest>

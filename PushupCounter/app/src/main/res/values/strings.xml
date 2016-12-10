@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pushup Counter</string>
+    <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
+    <string name="btn_fullscreen_ad">Show Fullscreen Ad</string>
+    <string name="banner_home_footer">ca-app-pub-4101986457162856/7545778924</string>
+
+</resources>

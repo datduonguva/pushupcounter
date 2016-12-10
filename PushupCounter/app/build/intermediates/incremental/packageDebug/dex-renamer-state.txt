@@ -1,0 +1,7 @@
+#Sat Dec 10 11:48:54 EST 2016
+base.0=C\:\\Users\\duong\\Desktop\\PushupCounter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_67b4b82d7bf8378c730c7db03de23a7ff8cce53c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\duong\\Desktop\\PushupCounter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7cab1b727b511056fa56c1b805ff511bdb088dec\\classes.dex
+base.1=C\:\\Users\\duong\\Desktop\\PushupCounter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7cab1b727b511056fa56c1b805ff511bdb088dec
+file.0=C\:\\Users\\duong\\Desktop\\PushupCounter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_67b4b82d7bf8378c730c7db03de23a7ff8cce53c\\classes.dex
