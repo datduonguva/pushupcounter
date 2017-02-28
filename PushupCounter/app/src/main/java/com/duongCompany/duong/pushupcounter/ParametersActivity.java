@@ -57,6 +57,7 @@ public class ParametersActivity extends AppCompatActivity {
         saveButton = (Button) findViewById(R.id.save_button);
 
 
+
         Cursor cursor = getContentResolver().query(PushContract.Parameter.CONTENT_URI, null, null, null, null);
         //Toast.makeText(this, "#" + cursor.getCount(), Toast.LENGTH_SHORT).show();
         cursor.moveToPosition(0);

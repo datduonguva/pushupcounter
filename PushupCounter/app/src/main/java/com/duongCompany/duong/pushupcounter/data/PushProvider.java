@@ -53,7 +53,8 @@ public class PushProvider extends ContentProvider {
                         PushEntry.COLUMN_DATE,
                         PushEntry.COLUMN_COUNT,
                         PushEntry.COLUMN_CALORIES};
-                cursor = database.query(PushEntry.TABLE_NAME, projection, null, null, null, null, null);
+                String orderString = PushEntry.COLUMN_DATE + " DESC";
+                cursor = database.query(PushEntry.TABLE_NAME, projection, null, null, null, null, orderString);
                 break;
             case PUSH_SINGLE:
                 projection = new String[]{
@@ -63,8 +64,8 @@ public class PushProvider extends ContentProvider {
                         PushEntry.COLUMN_CALORIES};
                 selection = PushEntry.COLUMN_ID + " =?";
                 selectionArgs = new String[]{String.valueOf(ContentUris.parseId(uri))};
-                cursor = database.query(PushEntry.TABLE_NAME, projection, selection, selectionArgs, null, null, null);
-
+                //cursor = database.query(PushEntry.TABLE_NAME, projection, selection, selectionArgs, null, null, null);
+                cursor = database.query(PushEntry.TABLE_NAME,projection,null,null,null,null,PushEntry.COLUMN_DATE + " DESC","1");
                 break;
             case PARAMETER_ALL_ITEMS:
                 projection = new String[]{Parameter.COLUMN_ID, Parameter.COLUMN_WEIGHT, Parameter.COLUMN_HEIGHT};
@@ -109,6 +110,7 @@ public class PushProvider extends ContentProvider {
         int match = uriMatcher.match(uri);
         int result = 0;
         if (match == PUSH_SINGLE) {
+
             selection = PushEntry.COLUMN_ID + " =?";
             selectionArgs = new String[]{String.valueOf(ContentUris.parseId(uri))};
             SQLiteDatabase database = pushDbHelper.getWritableDatabase();
@@ -131,7 +133,16 @@ public class PushProvider extends ContentProvider {
             int result = database.update(Parameter.TABLE_NAME, values, selection, selectionArgs);
             getContext().getContentResolver().notifyChange(uri, null);
             return result;
+        }else if(match == PUSH_SINGLE){
+            SQLiteDatabase database = pushDbHelper.getWritableDatabase();
+            selection = PushEntry.COLUMN_ID + " =?";
+            selectionArgs = new String[]{String.valueOf(ContentUris.parseId(uri))};
+            int result = database.update(PushEntry.TABLE_NAME, values, selection,selectionArgs);
+            getContext().getContentResolver().notifyChange(uri, null);
+            return result;
         }
         return 0;
     }
+
+
 }

@@ -22,10 +22,14 @@
         <activity android:name="com.duongCompany.duong.pushupcounter.ParametersActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".ParameterUpdatedActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
         <provider
             android:name="com.duongCompany.duong.pushupcounter.data.PushProvider"
             android:authorities="com.duongCompany.duong.pushupcounter"
             android:exported="false" />
+
     </application>
 
 </manifest>
