@@ -345,11 +345,16 @@
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="decline">Decline</string>
+    <string name="goal">GOAL</string>
+    <string name="height">HEIGHT</string>
+    <string name="isSI">ISSI</string>
     <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
     <string name="search_menu_title">Search</string>
+    <string name="sharedPre">SHAREDPRE</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
+    <string name="weight">WEIGHT</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

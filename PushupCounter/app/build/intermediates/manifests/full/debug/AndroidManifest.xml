@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.duongCompany.duong.pushupcounter"
-    android:versionCode="3"
+    android:versionCode="5"
     android:versionName="1.0" >
 
     <uses-sdk
@@ -31,11 +31,16 @@
             android:name="com.duongCompany.duong.pushupcounter.ParametersActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.duongCompany.duong.pushupcounter.ParameterUpdatedActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
 
         <provider
             android:name="com.duongCompany.duong.pushupcounter.data.PushProvider"
             android:authorities="com.duongCompany.duong.pushupcounter"
             android:exported="false" />
+
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

@@ -3,9 +3,12 @@ package com.duongCompany.duong.pushupcounter;
 import android.app.LoaderManager;
 import android.content.ContentUris;
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.CursorLoader;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.Loader;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.hardware.Sensor;
@@ -13,11 +16,14 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.net.Uri;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -41,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     public static boolean insue = false;
     private double mass = 60.0;
     private int height = 170;
+    private int goal = 100;
     private int armLength;
     ListView listView;
     PushAdapter pushAdapter = null;
@@ -48,12 +55,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private long time1;
     private long time2;
     private Cursor parameterCursor = null;
-
+    SharedPreferences sharedPreferences;
     private AdView mAdView;
-
-
     private TextView curCalText;
-
+    private TextView goalText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,13 +71,19 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         doneButton = (Button) findViewById(R.id.done_button);
         doneButton.setEnabled(false);
         listView = (ListView) findViewById(R.id.list_view);
-        armLength = (int) (height- 0.45)/2;
+        goalText = (TextView) findViewById(R.id.goal_textView);
 
+        sharedPreferences = getApplicationContext().getSharedPreferences(getString(R.string.sharedPre), MODE_PRIVATE);
+        height = sharedPreferences.getInt(getString(R.string.height), 170);
+        armLength = (int) (height- 35)/2;
+        mass = (double) sharedPreferences.getFloat(getString(R.string.weight), 60.0f);
+        goal = (int) sharedPreferences.getInt(getString(R.string.goal), 100);
+        goalText.setText(""+goal);
         pushAdapter = new PushAdapter(this, null);
         listView.setAdapter(pushAdapter);
 
         getLoaderManager().initLoader(1, null, this);
-        getLoaderManager().initLoader(2, null, this);
+        //getLoaderManager().initLoader(2, null, this);
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,26 +109,57 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 curCalText.setText("0");
                 curCalText.setTextColor(Color.parseColor("#000000"));
                 Date date = new Date();
-                ContentValues contentValues = new ContentValues();
-                contentValues.put(PushEntry.COLUMN_DATE, date.getTime());
-                contentValues.put(PushEntry.COLUMN_COUNT, counter);
-                contentValues.put(PushEntry.COLUMN_CALORIES, calories);
-                Uri uri = getContentResolver().insert(PushEntry.CONTENT_URI, contentValues);
-                Toast.makeText(getApplicationContext(), "Excellent! Keep pushing up!", Toast.LENGTH_SHORT).show();
+                Uri mUri = ContentUris.withAppendedId(PushEntry.CONTENT_URI, 3);
+                Cursor lastOne = getContentResolver().query(mUri,null,null, null, null);
+                if( lastOne.getCount()>0) {
+                    lastOne.moveToFirst();
+                    Log.v("Id of the last one", ""+ lastOne.getInt(lastOne.getColumnIndex(PushEntry.COLUMN_ID)));
+                    long lastTime = lastOne.getLong(lastOne.getColumnIndex(PushEntry.COLUMN_DATE));
+                    if(date.getTime()/86400000-lastTime/86400000 >0){
+                        ContentValues contentValues = new ContentValues();
+                        contentValues.put(PushEntry.COLUMN_DATE, date.getTime());
+                        contentValues.put(PushEntry.COLUMN_COUNT, counter);
+                        contentValues.put(PushEntry.COLUMN_CALORIES, calories);
+                        Uri uri = getContentResolver().insert(PushEntry.CONTENT_URI, contentValues);
+                        if(counter >= goal)
+                            makeDiaglog("Excellent! Goal achieved!");
+                        else{
+                            int left = goal- counter;
+                            makeDiaglog("Excellent! "+ left + " more to go!");
+                        }
+                    }else{
+                        ContentValues contentValues = new ContentValues();
+                        contentValues.put(PushEntry.COLUMN_DATE, date.getTime());
+                        contentValues.put(PushEntry.COLUMN_COUNT, counter + lastOne.getInt(lastOne.getColumnIndex(PushEntry.COLUMN_COUNT)));
+                        contentValues.put(PushEntry.COLUMN_CALORIES, calories+ lastOne.getInt(lastOne.getColumnIndex(PushEntry.COLUMN_CALORIES)));
+                        getContentResolver().update(ContentUris.withAppendedId(PushEntry.CONTENT_URI,lastOne.getInt(lastOne.getColumnIndex(PushEntry.COLUMN_ID))),contentValues,null, null);
+                        int left = goal - counter - lastOne.getInt(lastOne.getColumnIndex(PushEntry.COLUMN_COUNT));
+                        if(left<=0)
+                            makeDiaglog("Excellent! Goal achieved!");
+                        else{
+                            makeDiaglog("Excellent! "+ left + " more to go!");
+                        }
+                    }
+                }else{
+                    ContentValues contentValues = new ContentValues();
+                    contentValues.put(PushEntry.COLUMN_DATE, date.getTime());
+                    contentValues.put(PushEntry.COLUMN_COUNT, counter);
+                    contentValues.put(PushEntry.COLUMN_CALORIES, calories);
+                    Uri uri = getContentResolver().insert(PushEntry.CONTENT_URI, contentValues);
+                    int left = goal - counter;
+                    if(left<=0)
+                        makeDiaglog("Excellent! Goal achieved!");
+                    else{
+                        makeDiaglog("Excellent! "+ left + " more to go!");
+                    }
+                }
                 doneButton.setEnabled(false);
-
-
-
             }
         });
 
         mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-
-
-
-
     }
 
     @Override
@@ -169,28 +211,13 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {
         if(id ==1 ) return new CursorLoader(this, PushEntry.CONTENT_URI, null, null, null, null);
-        else return new CursorLoader(this,Parameter.CONTENT_URI, null, null, null, null);
+        else return null;
     }
 
     @Override
     public void onLoadFinished(Loader<Cursor> loader, Cursor data) {
         if(loader.getId() == 1)
         pushAdapter.swapCursor(data);
-        else {
-            if(data.getCount()==0){
-                ContentValues contentValues = new ContentValues();
-                contentValues.put(Parameter.COLUMN_WEIGHT, mass);
-                contentValues.put(Parameter.COLUMN_HEIGHT, height);
-                //Toast.makeText(this, "parameter done", Toast.LENGTH_SHORT).show();
-                this.getContentResolver().insert(Parameter.CONTENT_URI,contentValues);
-            } else{
-                data.moveToFirst();
-                mass = data.getDouble(data.getColumnIndex(Parameter.COLUMN_WEIGHT));
-                height = data.getInt(data.getColumnIndex(Parameter.COLUMN_HEIGHT));
-                //Toast.makeText(this, "parameter coppied", Toast.LENGTH_SHORT).show();
-
-            }
-        }
     }
 
     @Override
@@ -225,7 +252,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.parameter_option:
-                Intent intent = new Intent(getApplicationContext(),ParametersActivity.class);
+                Intent intent = new Intent(getApplicationContext(),ParameterUpdatedActivity.class);
                 intent.setData(ContentUris.withAppendedId(Parameter.CONTENT_URI,1));
                 startActivity(intent);
 
@@ -233,6 +260,18 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+    private void makeDiaglog(String message){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(message);
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+
+        builder.show();
     }
 }
 

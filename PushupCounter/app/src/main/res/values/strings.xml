@@ -3,5 +3,10 @@
     <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
     <string name="btn_fullscreen_ad">Show Fullscreen Ad</string>
     <string name="banner_home_footer">ca-app-pub-4101986457162856/7545778924</string>
+    <string name="isSI">ISSI</string>
+    <string name="height">HEIGHT</string>
+    <string name="weight">WEIGHT</string>
+    <string name="goal">GOAL</string>
+    <string name="sharedPre">SHAREDPRE</string>
 
 </resources>

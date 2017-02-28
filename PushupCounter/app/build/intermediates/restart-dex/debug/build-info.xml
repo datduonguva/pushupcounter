@@ -5,33 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="162706634034190"
-    token="-3661290861748451758"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="83942202008320"
+    token="-1904229334474280067"
+    verifier="CLASS_ADDED" >
 
     <task
         name="javac"
-        duration="5204" />
+        duration="1895" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="981" />
+        duration="341" />
     <task
         name="verifier"
-        duration="749" />
+        duration="1074" />
 
     <artifact
-        location="C:\Users\duong\Desktop\PushupCounter\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="162706634034190"
+        timestamp="82463171300266"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\duong\Desktop\PushupCounter\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="83942202008320"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

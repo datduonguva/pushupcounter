@@ -8,7 +8,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\support-annotations-24.2.1_3a930296b4795989e1d96b74e1372bc2ca007172.jar" />
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\support-annotations-24.2.1_3a930296b4795989e1d96b74e1372bc2ca007172.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3bb8eccdeb7ce1557bd667553853259ccd4e0d72\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -17,313 +26,304 @@
         optimize="true"
         revision="25.0.0"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_3a930296b4795989e1d96b74e1372bc2ca007172\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_a02f695cba83f9efbe53f95b8e06e9920ea4ca7b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="869fe912da736d3eee06263331cadbbd9a08e9ea">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_67b4b82d7bf8378c730c7db03de23a7ff8cce53c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_c12d74e8328d822f17a610098617f4d37d6a3922\classes.dex" />
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_3a930296b4795989e1d96b74e1372bc2ca007172\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.2.1_c12d74e8328d822f17a610098617f4d37d6a3922.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-8.4.0_a12e3984173884e56d66d9efd48f4e5ce84d5564.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-8.4.0_a6634936b0ad2258dbfd1cc71b1b31c4463f5f91\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-ads-8.4.0_a6634936b0ad2258dbfd1cc71b1b31c4463f5f91.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-24.2.1_a02f695cba83f9efbe53f95b8e06e9920ea4ca7b.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_a12e3984173884e56d66d9efd48f4e5ce84d5564\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_232ac1b892f3bdd9b77ca9c7b5df121975de0c69.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_232ac1b892f3bdd9b77ca9c7b5df121975de0c69\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6a29ea6e35a92f44cb716c8cff8bd2d0bd3c83f0\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_6a29ea6e35a92f44cb716c8cff8bd2d0bd3c83f0.jar" />
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_3bb8eccdeb7ce1557bd667553853259ccd4e0d72.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_32cff9a7d0eee2498abef44708d595d103bd7aa1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0a755cee87d542dda93fba25a6c17d52d3ced252">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7cab1b727b511056fa56c1b805ff511bdb088dec\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_303f9248443b49abd52123115f6ec4c9fd244f44\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.2.1_32cff9a7d0eee2498abef44708d595d103bd7aa1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-24.2.1_af09224954bb6bd079c01bf7c5005c70ac623934.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_b00c9907aa557a062cd13c2be85a47a858b125af.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_af09224954bb6bd079c01bf7c5005c70ac623934\classes.dex" />
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_053470b4b21f5ff8a334eec5d39aa4e6a56bd460\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_66feb0d894324c5e411d1c1e482c41df8bcb7311\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_dbf5505981677f2da854b0e76769f812d3685ddf\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.2.1_dbf5505981677f2da854b0e76769f812d3685ddf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-24.2.1_303f9248443b49abd52123115f6ec4c9fd244f44.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_66feb0d894324c5e411d1c1e482c41df8bcb7311.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-24.2.1_d997cc2c465a77dbdf3a8eafa9b2da3ff4ef230c.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b00c9907aa557a062cd13c2be85a47a858b125af\classes.dex" />
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a56d396926472cfdd95994992c3bef23a20bd371\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_62b769a5ed8e54d426eedaa78d95935fc5b5d456\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_77de18ac31685e38bc673d171570093c158ecfb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.2.1_62b769a5ed8e54d426eedaa78d95935fc5b5d456.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0e3104dfd841c118f171bdf6687e02d96a50df7">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_81a8f184420662ba634d27b0f67d6d81ea9f9eec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_a7094932be534fd3ce05413d44433c00c0d604fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-8.4.0_3aff1482b598ec27f865e4f7e74283b3f3b83729.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_3aff1482b598ec27f865e4f7e74283b3f3b83729\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-24.2.1_a7094932be534fd3ce05413d44433c00c0d604fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_a56d396926472cfdd95994992c3bef23a20bd371.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-24.2.1_053470b4b21f5ff8a334eec5d39aa4e6a56bd460.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-24.2.1_87792c2477b3a41a1246c4da9e79a8fa9512850f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_87792c2477b3a41a1246c4da9e79a8fa9512850f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_d997cc2c465a77dbdf3a8eafa9b2da3ff4ef230c\classes.dex" />
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_389ba9c8b8d86ae26e73c7662b8f4748c1392f25\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-24.2.1_55fd01c5cb64ade549033f76652e047e444d30c9.jar" />
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_6295b95b86564da5cc156788d0048b478fcd70d8.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6295b95b86564da5cc156788d0048b478fcd70d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.2.1_1cd25dc628a6b38f4e5930710b64c54a140cb022.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_55fd01c5cb64ade549033f76652e047e444d30c9\classes.dex" />
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_76677a6a742eaa75796f90c521340ecee6d50db6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_9d59a8081c235f33f456ad89ae04d98005b2f54a\classes.dex" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_5d5ae4765e1620713dea3a3354a320c41829b726\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_acd2cdc498779c561354411d333629122c881bea.jar" />
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_3846edc619a26029b1e5ebc572764daccb0ba7b4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.2.1_9d59a8081c235f33f456ad89ae04d98005b2f54a.jar" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.2.1_5d5ae4765e1620713dea3a3354a320c41829b726.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_754673f4f2cbb5c38647550b2553e4c46eabe695.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\duong\Desktop\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_acd2cdc498779c561354411d333629122c881bea\classes.dex" />
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3846edc619a26029b1e5ebc572764daccb0ba7b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_754673f4f2cbb5c38647550b2553e4c46eabe695\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-ads-8.4.0_d66553bf2f16ec06d52054c0a115354277eeafa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-24.2.1_76677a6a742eaa75796f90c521340ecee6d50db6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.2.1_77de18ac31685e38bc673d171570093c158ecfb0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-8.4.0_d66553bf2f16ec06d52054c0a115354277eeafa7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26ef64298bedb2d4ba79c555c360ec02adaec7e7">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_71a04a783d7cee83f02ead426cd4e5ce1937bb03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_1cd25dc628a6b38f4e5930710b64c54a140cb022\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\duong\OneDrive\Android\pushupcounter-master\PushupCounter\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-24.2.1_389ba9c8b8d86ae26e73c7662b8f4748c1392f25.jar" />
     </item>
 
 </items>
